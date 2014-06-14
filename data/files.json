@@ -1,0 +1,16 @@
+{
+    	text:'Application',
+    	expanded:true,
+    	children:[
+    		{
+				text:'app',
+				children:[
+					{ text:'app.js', leaf:true},
+					{ text:'controller'  },
+					{ text:'model'    },
+					{ text:'store' },
+					{ text:'view', children:[ { text:'BasicTreePanel.js', leaf:true } ] }
+				]
+			}
+		]						
+    }
